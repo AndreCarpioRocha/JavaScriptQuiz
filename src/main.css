@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: 'Iceland';
+    src: url('assets/fonts/Iceland/Iceland-Regular.ttf');
+    display: swap;
+}
+
+@font-face {
+    font-family: 'Stick';
+    src: url('assets/fonts/Stick/Stick-Regular.ttf');
+    display: swap;
+}
+
+/* Cambiar el tamaño del scroll */
+::-webkit-scrollbar {
+    width: 5px;
+    /* Ancho */
+    height: 5px;
+    /* Alto (para scroll horizontal) */
+}
+
+/* Cambiar el color de fondo del track (pista) */
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+/* Modificar el "thumb" (barra desplazable) */
+::-webkit-scrollbar-thumb {
+    background: #929292;
+    border-radius: 10px;
+}

@@ -1,0 +1,59 @@
+.containerPopUp {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #20222742;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPopUp .popUp {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1.5rem;
+    background-color: #202227;
+    min-width: 50%;
+    min-height: 50%;
+    width: 400px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+    border: 1px solid white;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #b3ff00;
+    padding: 2rem 2.5rem;
+    overflow: visible;
+}
+
+.btnClosePopUp {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    top: -2rem;
+    right: -2rem;
+    font-size: 2.5rem;
+    color: rgb(199, 199, 199);
+    cursor: pointer;
+    background-color: #202227;
+    border: 1px solid white;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 0.5rem;
+    padding-left: 0.2rem;
+
+}
+
+.btnClosePopUp:hover {
+    color: #b3ff00;
+    background-color: #202227;
+    text-shadow: #b3ff00 0 0 10px;
+}

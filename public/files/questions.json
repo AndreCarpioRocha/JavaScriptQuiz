@@ -1,0 +1,1178 @@
+[
+    {
+        "Question": "Which is the purpose of JavaScript?",
+        "Answers": [
+            "To style HTML Pages",
+            "To add interactivity to HTML pages",
+            "To perform server-side scripting operations",
+            "To define database schemas",
+            "To manage network protocols",
+            "To create desktop applications",
+            "To handle hardware interactions"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "To insert a JavaScript into an HTML page, which tag is used?",
+        "Answers": [
+            "<script='java'>",
+            "<javascript>",
+            "<script>",
+            "<js>",
+            "<scripting>",
+            "<code>",
+            "<execute>"
+        ],
+        "Correct": 2,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which of the following is correct to write “Hello World” on the web page?",
+        "Answers": [
+            "print('Hello World')",
+            "document.write('Hello World')",
+            "response.write('Hello World')",
+            "console.log('Hello World')",
+            "alert('Hello World')",
+            "window.display('Hello World')",
+            "HTML.output('Hello World')"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "How do you declare a JavaScript variable?",
+        "Answers": [
+            "var myVar;",
+            "variable myVar;",
+            "v myVar;",
+            "let myVar;",
+            "const myVar;",
+            "int myVar;",
+            "declare myVar;"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which symbol is used for single-line comments in JavaScript?",
+        "Answers": [
+            "/* comment */",
+            "// comment",
+            "# comment",
+            "-- comment",
+            "<!-- comment -->",
+            "%% comment",
+            ";; comment"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which keyword is used to define a constant in JavaScript?",
+        "Answers": [
+            "let",
+            "const",
+            "var",
+            "final",
+            "static",
+            "immutable",
+            "fixed"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "What will `typeof []` return in JavaScript?",
+        "Answers": [
+            "object",
+            "array",
+            "undefined",
+            "list",
+            "collection",
+            "sequence",
+            "iterable"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to remove the last element from an array?",
+        "Answers": [
+            "pop()",
+            "shift()",
+            "splice()",
+            "remove()",
+            "delete()",
+            "cut()",
+            "trim()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "How do you check if a variable `x` is equal to 5 and is of type number?",
+        "Answers": [
+            "x == 5",
+            "x === 5",
+            "x = 5",
+            "x.equals(5)",
+            "x.isNumber(5)",
+            "x.typeOf(5)",
+            "x.compare(5)"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which function is used to parse a JSON string?",
+        "Answers": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "JSON.toObject()",
+            "JSON.decode()",
+            "JSON.read()",
+            "JSON.convert()",
+            "JSON.load()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "How do you create a function in JavaScript?",
+        "Answers": [
+            "function myFunction() {}",
+            "def myFunction() {}",
+            "create myFunction() {}",
+            "func myFunction() {}",
+            "new Function() {}",
+            "define myFunction() {}",
+            "make myFunction() {}"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which event is triggered when a user clicks on an HTML element?",
+        "Answers": [
+            "onmouseover",
+            "onchange",
+            "onclick",
+            "onhover",
+            "onpress",
+            "onselect",
+            "onfocus"
+        ],
+        "Correct": 2,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which of the following is a falsy value in JavaScript?",
+        "Answers": [
+            "0",
+            "1",
+            "'false'",
+            "[]",
+            "{}",
+            "null",
+            "undefined"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which statement is used to exit a loop?",
+        "Answers": [
+            "stop",
+            "break",
+            "exit",
+            "return",
+            "continue",
+            "halt",
+            "end"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of `setTimeout()`?",
+        "Answers": [
+            "To execute a function immediately",
+            "To execute a function after a specified time",
+            "To repeat a function continuously",
+            "To pause the execution of a function",
+            "To cancel a function execution",
+            "To delay the loading of a script",
+            "To schedule a function for the next frame"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which operator is used for exponentiation in JavaScript?",
+        "Answers": [
+            "^",
+            "**",
+            "exp()",
+            "pow()",
+            "^^",
+            "exponent()",
+            "power()"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "How do you convert a string to a number in JavaScript?",
+        "Answers": [
+            "parseInt()",
+            "toNumber()",
+            "stringToNumber()",
+            "Number()",
+            "convertToNumber()",
+            "castToNumber()",
+            "strToNum()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to add an element to the end of an array?",
+        "Answers": [
+            "push()",
+            "unshift()",
+            "append()",
+            "add()",
+            "insert()",
+            "concat()",
+            "extend()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What will `console.log(2 + '2')` output?",
+        "Answers": [
+            "4",
+            "22",
+            "Error",
+            "'22'",
+            "NaN",
+            "undefined",
+            "TypeError"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which keyword is used to handle exceptions in JavaScript?",
+        "Answers": [
+            "try",
+            "catch",
+            "throw",
+            "finally",
+            "error",
+            "exception",
+            "handle"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which of these is a valid way to define an arrow function?",
+        "Answers": [
+            "let myFunc = () => {}",
+            "let myFunc = function => {}",
+            "function myFunc() => {}",
+            "let myFunc = -> {}",
+            "let myFunc = => {}",
+            "let myFunc = function() => {}",
+            "let myFunc = (=>) {}"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which loop will execute at least once, even if the condition is false?",
+        "Answers": [
+            "for loop",
+            "while loop",
+            "do...while loop",
+            "repeat...until loop",
+            "loop...until",
+            "forEach loop",
+            "map loop"
+        ],
+        "Correct": 2,
+        "answerSelected": null
+    },
+    {
+        "Question": "What will `Boolean('false')` return?",
+        "Answers": [
+            "false",
+            "true",
+            "undefined",
+            "null",
+            "NaN",
+            "0",
+            "1"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to join two arrays?",
+        "Answers": [
+            "concat()",
+            "join()",
+            "merge()",
+            "combine()",
+            "union()",
+            "append()",
+            "link()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "How do you remove whitespace from both ends of a string?",
+        "Answers": [
+            "trim()",
+            "strip()",
+            "cut()",
+            "clean()",
+            "removeSpaces()",
+            "shave()",
+            "clip()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof null` in JavaScript?",
+        "Answers": [
+            "object",
+            "null",
+            "undefined",
+            "string",
+            "number",
+            "boolean",
+            "function"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to find the index of an element in an array?",
+        "Answers": [
+            "indexOf()",
+            "findIndex()",
+            "search()",
+            "locate()",
+            "getIndex()",
+            "find()",
+            "seek()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What does the `this` keyword refer to in a JavaScript object method?",
+        "Answers": [
+            "The global object",
+            "The object itself",
+            "The parent object",
+            "The function itself",
+            "The window object",
+            "The prototype object",
+            "The class instance"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to convert an object to a JSON string?",
+        "Answers": [
+            "JSON.stringify()",
+            "JSON.parse()",
+            "JSON.toJSON()",
+            "JSON.encode()",
+            "JSON.serialize()",
+            "JSON.convert()",
+            "JSON.toString()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the result of `0.1 + 0.2 === 0.3` in JavaScript?",
+        "Answers": [
+            "true",
+            "false",
+            "NaN",
+            "undefined",
+            "TypeError",
+            "SyntaxError",
+            "ReferenceError"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to sort the elements of an array?",
+        "Answers": [
+            "sort()",
+            "order()",
+            "arrange()",
+            "rank()",
+            "sequence()",
+            "organize()",
+            "align()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `bind()` method in JavaScript?",
+        "Answers": [
+            "To create a new function with a specific `this` value",
+            "To bind two objects together",
+            "To attach an event listener",
+            "To bind a variable to a scope",
+            "To bind a function to a class",
+            "To bind a function to a prototype",
+            "To bind a function to a module"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof NaN` in JavaScript?",
+        "Answers": [
+            "number",
+            "NaN",
+            "undefined",
+            "string",
+            "boolean",
+            "object",
+            "function"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to remove an element from the beginning of an array?",
+        "Answers": [
+            "shift()",
+            "pop()",
+            "splice()",
+            "remove()",
+            "delete()",
+            "cut()",
+            "trim()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `Promise` object in JavaScript?",
+        "Answers": [
+            "To handle asynchronous operations",
+            "To create a new object",
+            "To define a class",
+            "To handle synchronous operations",
+            "To create a new function",
+            "To define a module",
+            "To handle event listeners"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `[] + []` in JavaScript?",
+        "Answers": [
+            "[]",
+            "''",
+            "undefined",
+            "NaN",
+            "0",
+            "TypeError",
+            "ReferenceError"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to check if an array includes a certain value?",
+        "Answers": [
+            "includes()",
+            "contains()",
+            "has()",
+            "find()",
+            "search()",
+            "check()",
+            "exists()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `async` keyword in JavaScript?",
+        "Answers": [
+            "To define an asynchronous function",
+            "To define a synchronous function",
+            "To define a generator function",
+            "To define a callback function",
+            "To define a promise function",
+            "To define a class method",
+            "To define a module"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof function() {}` in JavaScript?",
+        "Answers": [
+            "function",
+            "object",
+            "undefined",
+            "string",
+            "number",
+            "boolean",
+            "class"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to reverse the elements of an array?",
+        "Answers": [
+            "reverse()",
+            "flip()",
+            "invert()",
+            "rotate()",
+            "swap()",
+            "mirror()",
+            "backwards()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `Symbol` data type in JavaScript?",
+        "Answers": [
+            "To create unique identifiers",
+            "To define constants",
+            "To create private properties",
+            "To define functions",
+            "To create iterators",
+            "To define classes",
+            "To create modules"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof undefined` in JavaScript?",
+        "Answers": [
+            "undefined",
+            "object",
+            "null",
+            "string",
+            "number",
+            "boolean",
+            "function"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to find the first element in an array that satisfies a condition?",
+        "Answers": [
+            "find()",
+            "filter()",
+            "search()",
+            "locate()",
+            "get()",
+            "seek()",
+            "detect()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `Map` object in JavaScript?",
+        "Answers": [
+            "To store key-value pairs",
+            "To store unique values",
+            "To store ordered values",
+            "To store functions",
+            "To store objects",
+            "To store arrays",
+            "To store classes"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof true` in JavaScript?",
+        "Answers": [
+            "boolean",
+            "object",
+            "string",
+            "number",
+            "undefined",
+            "function",
+            "class"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to create a new array with all elements that pass a test?",
+        "Answers": [
+            "filter()",
+            "map()",
+            "reduce()",
+            "find()",
+            "search()",
+            "select()",
+            "extract()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `Set` object in JavaScript?",
+        "Answers": [
+            "To store unique values",
+            "To store key-value pairs",
+            "To store ordered values",
+            "To store functions",
+            "To store objects",
+            "To store arrays",
+            "To store classes"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof 42` in JavaScript?",
+        "Answers": [
+            "number",
+            "object",
+            "string",
+            "boolean",
+            "undefined",
+            "function",
+            "class"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to execute a function for each element in an array?",
+        "Answers": [
+            "forEach()",
+            "map()",
+            "reduce()",
+            "filter()",
+            "find()",
+            "search()",
+            "iterate()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `WeakMap` object in JavaScript?",
+        "Answers": [
+            "To store key-value pairs with weak references",
+            "To store unique values",
+            "To store ordered values",
+            "To store functions",
+            "To store objects",
+            "To store arrays",
+            "To store classes"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof 'Hello'` in JavaScript?",
+        "Answers": [
+            "string",
+            "object",
+            "number",
+            "boolean",
+            "undefined",
+            "function",
+            "class"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to reduce an array to a single value?",
+        "Answers": [
+            "reduce()",
+            "map()",
+            "filter()",
+            "find()",
+            "search()",
+            "combine()",
+            "aggregate()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `WeakSet` object in JavaScript?",
+        "Answers": [
+            "To store unique values with weak references",
+            "To store key-value pairs",
+            "To store ordered values",
+            "To store functions",
+            "To store objects",
+            "To store arrays",
+            "To store classes"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof {}` in JavaScript?",
+        "Answers": [
+            "object",
+            "string",
+            "number",
+            "boolean",
+            "undefined",
+            "function",
+            "class"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to create a new array with the results of calling a function on every element?",
+        "Answers": [
+            "map()",
+            "reduce()",
+            "filter()",
+            "find()",
+            "search()",
+            "transform()",
+            "convert()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `Proxy` object in JavaScript?",
+        "Answers": [
+            "To define custom behavior for fundamental operations",
+            "To create a new object",
+            "To define a class",
+            "To handle asynchronous operations",
+            "To create a new function",
+            "To define a module",
+            "To handle event listeners"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof null` in JavaScript?",
+        "Answers": [
+            "object",
+            "null",
+            "undefined",
+            "string",
+            "number",
+            "boolean",
+            "function"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to find the index of an element in an array?",
+        "Answers": [
+            "indexOf()",
+            "findIndex()",
+            "search()",
+            "locate()",
+            "getIndex()",
+            "find()",
+            "seek()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What does the `this` keyword refer to in a JavaScript object method?",
+        "Answers": [
+            "The global object",
+            "The object itself",
+            "The parent object",
+            "The function itself",
+            "The window object",
+            "The prototype object",
+            "The class instance"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to convert an object to a JSON string?",
+        "Answers": [
+            "JSON.stringify()",
+            "JSON.parse()",
+            "JSON.toJSON()",
+            "JSON.encode()",
+            "JSON.serialize()",
+            "JSON.convert()",
+            "JSON.toString()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the result of `0.1 + 0.2 === 0.3` in JavaScript?",
+        "Answers": [
+            "true",
+            "false",
+            "NaN",
+            "undefined",
+            "TypeError",
+            "SyntaxError",
+            "ReferenceError"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to sort the elements of an array?",
+        "Answers": [
+            "sort()",
+            "order()",
+            "arrange()",
+            "rank()",
+            "sequence()",
+            "organize()",
+            "align()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `bind()` method in JavaScript?",
+        "Answers": [
+            "To create a new function with a specific `this` value",
+            "To bind two objects together",
+            "To attach an event listener",
+            "To bind a variable to a scope",
+            "To bind a function to a class",
+            "To bind a function to a prototype",
+            "To bind a function to a module"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof NaN` in JavaScript?",
+        "Answers": [
+            "number",
+            "NaN",
+            "undefined",
+            "string",
+            "boolean",
+            "object",
+            "function"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to remove an element from the beginning of an array?",
+        "Answers": [
+            "shift()",
+            "pop()",
+            "splice()",
+            "remove()",
+            "delete()",
+            "cut()",
+            "trim()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `Promise` object in JavaScript?",
+        "Answers": [
+            "To handle asynchronous operations",
+            "To create a new object",
+            "To define a class",
+            "To handle synchronous operations",
+            "To create a new function",
+            "To define a module",
+            "To handle event listeners"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `[] + []` in JavaScript?",
+        "Answers": [
+            "[]",
+            "''",
+            "undefined",
+            "NaN",
+            "0",
+            "TypeError",
+            "ReferenceError"
+        ],
+        "Correct": 1,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to check if an array includes a certain value?",
+        "Answers": [
+            "includes()",
+            "contains()",
+            "has()",
+            "find()",
+            "search()",
+            "check()",
+            "exists()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `async` keyword in JavaScript?",
+        "Answers": [
+            "To define an asynchronous function",
+            "To define a synchronous function",
+            "To define a generator function",
+            "To define a callback function",
+            "To define a promise function",
+            "To define a class method",
+            "To define a module"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof function() {}` in JavaScript?",
+        "Answers": [
+            "function",
+            "object",
+            "undefined",
+            "string",
+            "number",
+            "boolean",
+            "class"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to reverse the elements of an array?",
+        "Answers": [
+            "reverse()",
+            "flip()",
+            "invert()",
+            "rotate()",
+            "swap()",
+            "mirror()",
+            "backwards()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `Symbol` data type in JavaScript?",
+        "Answers": [
+            "To create unique identifiers",
+            "To define constants",
+            "To create private properties",
+            "To define functions",
+            "To create iterators",
+            "To define classes",
+            "To create modules"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof undefined` in JavaScript?",
+        "Answers": [
+            "undefined",
+            "object",
+            "null",
+            "string",
+            "number",
+            "boolean",
+            "function"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to find the first element in an array that satisfies a condition?",
+        "Answers": [
+            "find()",
+            "filter()",
+            "search()",
+            "locate()",
+            "get()",
+            "seek()",
+            "detect()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `Map` object in JavaScript?",
+        "Answers": [
+            "To store key-value pairs",
+            "To store unique values",
+            "To store ordered values",
+            "To store functions",
+            "To store objects",
+            "To store arrays",
+            "To store classes"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof true` in JavaScript?",
+        "Answers": [
+            "boolean",
+            "object",
+            "string",
+            "number",
+            "undefined",
+            "function",
+            "class"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to create a new array with all elements that pass a test?",
+        "Answers": [
+            "filter()",
+            "map()",
+            "reduce()",
+            "find()",
+            "search()",
+            "select()",
+            "extract()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `Set` object in JavaScript?",
+        "Answers": [
+            "To store unique values",
+            "To store key-value pairs",
+            "To store ordered values",
+            "To store functions",
+            "To store objects",
+            "To store arrays",
+            "To store classes"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof 42` in JavaScript?",
+        "Answers": [
+            "number",
+            "object",
+            "string",
+            "boolean",
+            "undefined",
+            "function",
+            "class"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to execute a function for each element in an array?",
+        "Answers": [
+            "forEach()",
+            "map()",
+            "reduce()",
+            "filter()",
+            "find()",
+            "search()",
+            "iterate()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `WeakMap` object in JavaScript?",
+        "Answers": [
+            "To store key-value pairs with weak references",
+            "To store unique values",
+            "To store ordered values",
+            "To store functions",
+            "To store objects",
+            "To store arrays",
+            "To store classes"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the output of `typeof 'Hello'` in JavaScript?",
+        "Answers": [
+            "string",
+            "object",
+            "number",
+            "boolean",
+            "undefined",
+            "function",
+            "class"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "Which method is used to reduce an array to a single value?",
+        "Answers": [
+            "reduce()",
+            "map()",
+            "filter()",
+            "find()",
+            "search()",
+            "combine()",
+            "aggregate()"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    },
+    {
+        "Question": "What is the purpose of the `WeakSet` object in JavaScript?",
+        "Answers": [
+            "To store unique values with weak references",
+            "To store key-value pairs",
+            "To store ordered values",
+            "To store functions",
+            "To store objects",
+            "To store arrays",
+            "To store classes"
+        ],
+        "Correct": 0,
+        "answerSelected": null
+    }
+]

@@ -1,0 +1,387 @@
+.containerJavaScriptQuizPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #030616;
+    padding: 3rem 2rem;
+}
+
+.brighnessBackground {
+    position: fixed;
+    z-index: 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: #0199fe;
+    filter: blur(250px);
+
+}
+
+.brighnessBackground.b1 {
+    top: 10%;
+    left: 5%;
+}
+
+.brighnessBackground.b2 {
+    top: 70%;
+    right: 10%;
+}
+
+.containerQuiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex: 1;
+    z-index: 1;
+}
+
+.titlte {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    animation: titleShake 2s infinite ease-in-out;
+}
+
+.titlte img {
+    height: 10rem;
+    box-shadow: 0 0 10px #F0DB4F;
+}
+
+.titlte .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes titleShake {
+    0% {
+        transform: translateY(2px)
+    }
+
+    50% {
+        transform: translateY(0px)
+    }
+
+    100% {
+        transform: translateY(2px)
+    }
+}
+
+.titlte .text p {
+    font-family: "Stick";
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 0 1rem #F0DB4F;
+    font-size: 10rem;
+    color: white;
+}
+
+.btnBlue {
+    font-family: "Stick";
+    padding: 0.7em 1.5em;
+    background-color: #1A75D1;
+    color: white;
+    border: none;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 1rem #1A75D1;
+    font-size: 1.7em;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.btnBlue:hover {
+    box-shadow: 0 0 2rem #1A75D1;
+    background-color: #1A75D1;
+}
+
+.questionContainer {
+    font-family: "Iceland";
+    display: flex;
+    flex-direction: column;
+    background-color: #0b1523;
+    border: 1px solid white;
+    box-shadow: 0 0 1rem #F0DB4F;
+    padding: 3rem;
+    min-height: 60rem;
+    width: 70rem;
+    max-width: 90%;
+    border-radius: 1rem;
+    gap: 2rem;
+}
+
+.resultsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.cardResult {
+    font-family: "Iceland";
+    display: flex;
+    flex-direction: column;
+    background-color: #0b1523;
+    border: 1px solid white;
+    box-shadow: 0 0 1.5rem #F0DB4F;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    gap: 1.5rem;
+
+}
+
+.cardResult h1 {
+    color: white;
+    font-size: 4rem;
+    border-bottom: 1px solid white;
+    padding: 0rem 4rem 1rem 4rem;
+    text-align: center;
+}
+
+.cardResult .score {
+    color: white;
+    font-size: 4rem;
+    padding: 0rem 4rem 1rem 4rem;
+    text-align: center;
+}
+
+
+.cardResult .simbol {
+    font-size: 12rem;
+    text-align: center;
+}
+
+.cardResult p {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.questionContainer .question {
+    color: white;
+    font-size: 2.5rem;
+    width: 100%;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+}
+
+.questionContainer .answers {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.questionContainer .answers>:first-child {
+    border-top: 1px solid white;
+}
+
+.questionContainer .answer {
+    width: 100;
+    background-color: #323232;
+    border: 1px solid white;
+    border-top: none;
+    padding: 1.5rem 2rem;
+    color: rgb(199, 199, 199);
+    cursor: pointer;
+}
+
+.questionContainer .answer:hover {
+    background-color: #424242;
+}
+
+.questionContainer .answer p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.questionContainer .answer:hover p {
+    scale: 1.07;
+}
+
+
+.questionContainer .answer.correct {
+    background-color: green;
+}
+
+.questionContainer .answer.incorrect {
+    background-color: rgb(128, 0, 0);
+}
+
+.menuQuestions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tagNumberQuestion {
+    font-family: "Stick";
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.tagNumberQuestion::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #b3ff0091;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.2s ease-in-out;
+}
+
+.tagNumberQuestion:hover::after {
+    width: 100%;
+}
+
+.tagNumberQuestion:hover {
+    text-shadow: #b3ff00 0px 0px 15px, #b3ff00 0px 0px 5px;
+}
+
+
+.menuQuestions button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+.menuQuestions button svg {
+    background-color: transparent;
+    background: none;
+    fill: rgb(255, 255, 255);
+}
+
+.menuQuestions button:hover svg {
+    filter: drop-shadow(0 0 1rem #f0da4f);
+    scale: 1.1;
+}
+
+.infoProgress {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.infoProgress p {
+    font-family: "Stick";
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.titlePopUp {
+    font-family: "Stick";
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.listQuestions {
+    width: 100%;
+    overflow-y: auto;
+    gap: 1rem;
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 4rem);
+    grid-auto-rows: 4rem;
+    justify-content: center;
+}
+
+.square {
+    background-color: #373a41;
+    border-radius: 0.7rem;
+}
+
+.square:hover {
+    box-shadow: 0 0 5px #1a75d1;
+}
+
+.quizIime {
+    position: relative;
+    font-family: "IceLand";
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: default;
+}
+
+.quizIime::before {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    width: 10rem;
+    height: 2.5rem;
+    top: 50%;
+    left: 50%;
+    background: #b3ff002c;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    filter: blur(8px);
+    animation: growShrink 1s infinite ease-in-out;
+}
+
+@keyframes growShrink {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+        /* Crece un 10% sin perder el centrado */
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.quizIime svg {
+    z-index: 2;
+    fill: white;
+    color: white;
+    font-weight: bold;
+    height: 3rem;
+    filter: drop-shadow(0 0 10px #b3ff00);
+
+}
+
+.quizIime p {
+    z-index: 2;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 0 10px #b3ff00;
+}
