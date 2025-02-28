@@ -18,6 +18,7 @@ export const JavaScriptQuizPage = () => {
     const setTimer = useQuestions(state => state.setTimer)
     const [showResults, setShowResult] = useState(false)
 
+
     const [infoProgress, setInfoProgress] = useState({
         correct: 0,
         incorrect: 0,
